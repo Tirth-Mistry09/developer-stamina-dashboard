@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import SkillList from './components/SkillList'
-
+import Stamina from './components/Stamina'
 function App() {
 
   const internName = import.meta.env.VITE_INTERN_NAME
@@ -18,6 +18,7 @@ function App() {
 
         <Header />
         <SkillList skills={skills} />
+        <Stamina />
 
         <h2>{internName}</h2>
 
