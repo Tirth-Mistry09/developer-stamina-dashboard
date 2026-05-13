@@ -1,7 +1,7 @@
 import './App.css'
-import Header from './components/Header'
-import SkillList from './components/SkillList'
-import Stamina from './components/Stamina'
+import Header from './components/Header.jsx'
+import SkillList from './components/SkillList.jsx'
+import Stamina from './components/Stamina.jsx'
 function App() {
 
   const internName = import.meta.env.VITE_INTERN_NAME

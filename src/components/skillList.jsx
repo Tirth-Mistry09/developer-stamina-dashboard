@@ -1,4 +1,4 @@
-import SkillBadge from "./SkillBadge"
+import SkillBadge from "./SkillBadge.jsx";
 
 function SkillList({skills}) {
 
