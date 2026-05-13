@@ -1,4 +1,4 @@
-function SkillBadge({name, level}) {
+function skillBadge({name, level}) {
 
     return(
         <>
@@ -13,4 +13,4 @@ function SkillBadge({name, level}) {
     )
 }
 
-export default SkillBadge
+export default skillBadge
